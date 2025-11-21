@@ -189,7 +189,7 @@ export function FirstBettingSitesList() {
                         </div>
 
                         <div className="w-full bg-gray-100 py-2 text-center text-xs text-gray-600 border-t border-gray-200">
-                          18+ • Bezpečna gra • SRIJ
+                          18+ • Bezpečna gra • HUPIS
                         </div>
                       </div>
                     </CardContent>

@@ -86,7 +86,7 @@ export function TopOffersModal({ isOpen, onClose }: TopOffersModalProps) {
           </Button>
 
           <div className="text-center text-xs text-gray-400 border-t border-gray-200 pt-4">
-            18+ • Bezpečna gra • SRIJ
+            18+ • Bezpečna gra • HUPIS
           </div>
         </div>
       </div>

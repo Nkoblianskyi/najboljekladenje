@@ -137,7 +137,7 @@ export function OurChoiceSection() {
                 </div>
 
                 <div className="w-full bg-gray-100 py-2 text-center text-xs text-muted-foreground border-t border-gray-200">
-                  18+ • Bezpečna gra • SRIJ
+                  18+ • Bezpečna gra • HUPIS
                 </div>
               </div>
             </CardContent>
