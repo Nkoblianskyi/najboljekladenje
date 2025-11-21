@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light theme - clean sports magazine aesthetic */
+    --background: 0 0% 98%;
+    --foreground: 220 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 15%;
+
+    /* Primary: Deep forest green for trust and professionalism */
+    --primary: 158 64% 28%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary: Warm coral for energy and excitement */
+    --secondary: 14 85% 58%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 15% 40%;
+
+    /* Accent: Vibrant orange for calls-to-action */
+    --accent: 24 95% 58%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 158 64% 28%;
+
+    --chart-1: 158 64% 28%;
+    --chart-2: 14 85% 58%;
+    --chart-3: 24 95% 58%;
+    --chart-4: 220 25% 15%;
+    --chart-5: 220 15% 70%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 25% 10%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 20% 14%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 20% 14%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 158 64% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 14 85% 62%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 20% 20%;
+    --muted-foreground: 220 15% 65%;
+
+    --accent: 24 95% 62%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 158 64% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
