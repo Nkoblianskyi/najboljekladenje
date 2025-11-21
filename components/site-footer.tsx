@@ -16,10 +16,7 @@ export function SiteFooter() {
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Vaš stručni vodič kroz svijet sportskog klađenja. Nepristrane recenzije i detaljne analize.
             </p>
-            <div className="text-xs text-muted-foreground space-y-1">
-              <p>© 2025 najboljekladenje.com</p>
-              <p>Sva prava pridržana</p>
-            </div>
+
           </div>
 
           {/* Navigation - Two Columns */}
@@ -138,6 +135,9 @@ export function SiteFooter() {
             </div>
           </Link>
         </div>
+      </div>
+      <div className="text-xs text-muted-foreground space-y-1 flex flex-row justify-center items-center gap-2 mt-4">
+        <p>© 2025 najboljekladenje.com - Sva prava pridržana</p>
       </div>
     </footer>
   )
